@@ -1,0 +1,24 @@
+{
+  "name": "alpholio-server",
+  "version": "1.0.0",
+  "description": "Investment Portfolio Management System - Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.1",
+    "cookie-parser": "^1.4.6",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
